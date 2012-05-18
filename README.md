@@ -13,8 +13,8 @@ Use the ```centerImages()``` function on the parent element of the images. Say y
 
 ```
   <ul>
-    <li><img src="http://placekitten/400x300/"></li>
-    <li><img src="http://placekitten/400x300/"></li>
+    <li><img src="http://placekitten.com/400/300"></li>
+    <li><img src="http://placekitten.com/400/300?image=2"></li>
   </ul>
 ```
 
