@@ -17,8 +17,8 @@ Use the ```centerImages()``` function on the parent element of the images. Say y
     <li><img src="http://placekitten.com/400/300?image=2"></li>
   </ul>
 ```
-
-You would have to use the following code to auto align all images:
+The parent element needs to have position:absolute
+You would have to use the following code to auto align all images.:
 
 ```
 $("ul li").centerImages();

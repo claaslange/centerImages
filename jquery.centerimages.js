@@ -12,7 +12,7 @@ $.fn.centerImages = function() {
       var ow = $images.outerWidth();
       var ml = (w + (ow - w)) / 2;
       var mt = (h + (oh - h)) / 2;
-      $images.css("cssText", "top: 50%; margin-top: -" + mt + "px; left: 50%; margin-left: -" + ml + "px; position: absolute;");
+      $images.css("cssText", "top: 50%; margin-top: -" + mt + "px; left: 50%; margin-left: -" + ml + "px; position: relative;");
     });
   });
 };
